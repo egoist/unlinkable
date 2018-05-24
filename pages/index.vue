@@ -9,6 +9,7 @@
       <div class="action">
         <button class="button" @click="copy">Copy</button>
       </div>
+      <div class="desc">Now copy the text and post it on Twitter! <a href="https://github.com/egoist/unlinkable/blob/bb4c8880647de1a96d2f554f88aab2443615c0b1/pages/index.vue#L45" target="_blank">How does this work?</a></div>
     </div>
   </div>
 </template>
@@ -123,5 +124,12 @@ body {
 
 .button:hover {
   background: #fd0585;
+}
+
+.desc {
+  padding: 10px;
+  padding-top: 0;
+  color: #999;
+  font-style: italic;
 }
 </style>
