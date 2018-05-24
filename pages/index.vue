@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <GithubBadge slug="egoist/unlinkify" />
+    <GithubBadge slug="egoist/unlinkable" />
     <h1 class="title">{{ title }}</h1>
     <p class="description">{{ description }}</p>
     <textarea class="input" v-model="input" rows="5" placeholder="Type your tweet..."></textarea>
